@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>脆脆鲸 · 四方向创业启动手册</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:'PingFang SC','Microsoft YaHei',sans-serif;
+    background:linear-gradient(160deg,#F4F3EE 0%,#FDFCF8 100%);
+    color:#1A1B1C; line-height:1.7; padding:0 0 60px 0;
+  }
+  .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
+  header {
+    background:linear-gradient(135deg,#9BBBF4,#94D8C3);
+    padding:48px 20px 40px; text-align:center; border-radius:0 0 24px 24px;
+  }
+  header h1 { font-size:28px; color:#fff; font-weight:700; letter-spacing:1px; }
+  header p { color:#fff; opacity:.92; margin-top:10px; font-size:15px; }
+  .tag { display:inline-block; background:rgba(255,255,255,.25); color:#fff; border-radius:20px;
+         padding:4px 14px; font-size:12px; margin:14px 4px 0; }
+  h2 {
+    font-size:21px; margin:40px 0 16px; padding-left:14px; border-left:5px solid #9BBBF4;
+    color:#1A1B1C;
+  }
+  h2 .en { font-size:12px; color:#9EACEA; font-weight:400; margin-left:8px; }
+  .card {
+    background:#fff; border-radius:14px; padding:20px; margin:14px 0;
+    box-shadow:0 2px 10px rgba(0,0,0,.04); border:1px solid rgba(0,0,0,.06);
+  }
+  .card h3 { font-size:16px; margin-bottom:10px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; margin:12px 0; }
+  th { background:#9BBBF4; color:#fff; padding:9px 10px; text-align:left; font-weight:600; }
+  td { padding:9px 10px; border-bottom:1px solid #E4E3DD; vertical-align:top; }
+  tr:nth-child(even) td { background:#F8F9FB; }
+  ul, ol { margin:8px 0 8px 22px; font-size:14px; }
+  li { margin:5px 0; }
+  .pill { display:inline-block; border-radius:12px; padding:2px 10px; font-size:12px; margin:2px 4px 2px 0; }
+  .pill.a { background:#E8EEFD; color:#3B5DBF; }
+  .pill.b { background:#E6F7F1; color:#1E8E6E; }
+  .pill.c { background:#FEF1E6; color:#C96A2B; }
+  .pill.d { background:#F3ECFC; color:#7B3FBF; }
+  .quote {
+    background:#F3ECFC; border-left:4px solid #C9A7E8; padding:12px 16px; border-radius:0 10px 10px 0;
+    font-size:13px; margin:12px 0; color:#4B5563;
+  }
+  .nav { display:flex; flex-wrap:wrap; gap:8px; margin:20px 0; }
+  .nav a {
+    flex:1 1 180px; text-align:center; text-decoration:none; padding:12px; border-radius:12px;
+    color:#fff; font-size:14px; font-weight:600; background:#9BBBF4; transition:.2s;
+  }
+  .nav a:hover { transform:translateY(-2px); opacity:.9; }
+  .nav a:nth-child(2){ background:#94D8C3; }
+  .nav a:nth-child(3){ background:#F4B393; }
+  .nav a:nth-child(4){ background:#C9A7E8; }
+  .step { display:flex; align-items:flex-start; margin:10px 0; }
+  .step .num {
+    flex-shrink:0; width:26px; height:26px; border-radius:50%; background:#9BBBF4; color:#fff;
+    display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:700; margin-right:12px; margin-top:2px;
+  }
+  .flow { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:14px 0; }
+  .flow .node { background:#fff; border:2px solid #9BBBF4; border-radius:10px; padding:10px 14px; font-size:13px; font-weight:600; color:#3B5DBF; }
+  .flow .arrow { color:#9EACEA; font-size:18px; }
+  .footer { text-align:center; color:#9CA3AF; font-size:12px; margin-top:40px; }
+  .warn { background:#FFF8E1; border-left:4px solid #FAAD14; padding:12px 16px; border-radius:0 10px 10px 0; font-size:13px; margin:12px 0; }
+  .files { background:#F0F4FF; border-radius:10px; padding:12px 16px; font-size:13px; margin:10px 0; }
+  .files code { background:#E3E9F5; padding:2px 6px; border-radius:4px; font-size:12px; color:#3B5DBF; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🌸 脆脆鲸 · 四方向启动手册</h1>
+  <p>计算机应届生 × 备考人 × 深圳独居 —— 一个人就是一个小型品牌</p>
+  <span class="tag">零成本起步</span>
+  <span class="tag">边备考边输出</span>
+  <span class="tag">四方向互相引流</span>
+</header>
+
+<div class="wrap">
+
+  <div class="nav">
+    <a href="#a">A · 自媒体</a>
+    <a href="#b">B · 数据分析</a>
+    <a href="#c">C · 求职服务</a>
+    <a href="#d">D · 数字模板</a>
+  </div>
+
+  <!-- ========== A ========== -->
+  <h2 id="a">A · 学习输出型自媒体 <span class="en">最推荐现在开始</span></h2>
+  <div class="card">
+    <h3>📌 账号定位：备考期的程序员成长记录</h3>
+    <p><span class="pill a">小红书主阵地</span><span class="pill a">公众号沉淀长文</span><span class="pill a">B站可选</span></p>
+    <p style="margin-top:10px;font-size:14px;">账号名建议：<b>「脆脆鲸备考中」</b> / 「鲸鱼学长备考日记」——差异化在于<b>程序员 + 备考人</b>双标签，同时覆盖考研/考公和计算机两大人群。</p>
+    <table>
+      <tr><th>内容支柱</th><th>占比</th><th>例子</th></tr>
+      <tr><td>备考干货</td><td>40%</td><td>行测速算、申论模板、408考点整理</td></tr>
+      <tr><td>程序员日常</td><td>40%</td><td>学习Vlog、代码笔记、粒子玫瑰教程、求职准备</td></tr>
+      <tr><td>情绪价值</td><td>20%</td><td>备考崩溃/重启、深圳独居省钱、一周时间表</td></tr>
+    </table>
+    <div class="quote">
+      第一篇笔记已写好（见项目文件），标题《计算机应届生｜备考公务员第 1 天，我决定把复习公开出来》，可直接发。
+    </div>
+    <p style="font-size:14px;"><b>发布节奏：</b>第一周每天 1 条测内容方向 → 稳定后每周 3-4 条，晚 21 点发布。</p>
+  </div>
+
+  <!-- ========== B ========== -->
+  <h2 id="b">B · 数据分析可视化报告 <span class="en">作品已完成 ✅</span></h2>
+  <div class="card">
+    <h3>📊 主题：计算机类专业应届生就业行情分析</h3>
+    <p style="font-size:14px;">用真实权威数据（麦可思《2026年中国大学生就业报告》公开报道）做了一份分析，<b>既是你求职的参考，也是展示数据能力的作品</b>。</p>
+    <table>
+      <tr><th>关键结论</th><th>数据</th></tr>
+      <tr><td>计算机类应届月收入 5 年仅涨</td><td>11 元（6886→6897）</td></tr>
+      <tr><td>2025 届被工学平均反超</td><td>6897 vs 7033 元</td></tr>
+      <tr><td>2026 绿牌专业</td><td>全部为实体工科，计算机退出</td></tr>
+      <tr><td>给你的启示</td><td>考公/考研避开低端内卷 → 你的选择是对的</td></tr>
+    </table>
+    <div class="files">
+      已生成 3 张图表：<code>chart1_income_trend.png</code>（收入趋势）<code>chart2_green_vs_cs.png</code>（绿牌对比）<code>chart3_growth.png</code>（涨幅对比）
+      <br>技术栈：Python + Matplotlib + 中文可视化
+    </div>
+  </div>
+
+  <!-- ========== C ========== -->
+  <h2 id="c">C · 求职服务 <span class="en">最快见钱</span></h2>
+  <div class="card">
+    <h3>🎯 AI 提效的应届生简历诊断与求职陪伴</h3>
+    <p style="font-size:14px;">你在深圳、自己就在求职，最能共情应届生痛点。AI 辅助 + 自己踩过的坑 = 差异化。</p>
+    <table>
+      <tr><th>服务</th><th>价格</th><th>交付</th></tr>
+      <tr><td>简历诊断</td><td>30-50 元</td><td>逐项点评 + 修改清单</td></tr>
+      <tr><td>简历优化</td><td>80-150 元</td><td>逐条改写 + 排版</td></tr>
+      <tr><td>简历+面试陪练</td><td>200-300 元</td><td>优化 + 1h 模拟面试</td></tr>
+      <tr><td>求职全程陪伴</td><td>500-800 元/月</td><td>简历+复盘+岗位推荐</td></tr>
+    </table>
+    <p style="font-size:14px;margin-top:8px;"><b>获客：</b>闲鱼挂商品 → 小红书发实操帖 → 社群免费帮 3 人换转介绍 → 前 5 单低价换口碑。</p>
+    <div class="warn">原则：AI 负责提效，你负责判断和润色——「人工把关」正是你区别于纯 AI 服务的卖点。</div>
+  </div>
+
+  <!-- ========== D ========== -->
+  <h2 id="d">D · 数字模板产品 <span class="en">一次制作反复卖</span></h2>
+  <div class="card">
+    <h3>🧩 备考人/求职人数字产品</h3>
+    <table>
+      <tr><th>产品</th><th>定价</th><th>难度</th></tr>
+      <tr><td>备考周计划表（已做✅）</td><td>9.9-19.9 元</td><td>⭐</td></tr>
+      <tr><td>行测公式速记卡</td><td>9.9 元</td><td>⭐</td></tr>
+      <tr><td>计算机考公岗位分析表</td><td>19.9-29.9 元</td><td>⭐⭐</td></tr>
+      <tr><td>AI 提示词包（求职/备考）</td><td>29.9-49.9 元</td><td>⭐⭐</td></tr>
+      <tr><td>408 考点清单</td><td>29.9 元</td><td>⭐⭐⭐</td></tr>
+    </table>
+    <div class="files">
+      ✅ 第一个可售产品已制作：<code>D_备考周计划表.xlsx</code> —— 7天×3任务、三色状态、完成率自动统计、复盘区
+    </div>
+  </div>
+
+  <!-- ========== 联动 ========== -->
+  <h2>🔗 四方向联动：一个人就是一个品牌</h2>
+  <div class="card">
+    <div class="flow">
+      <div class="node">A 自媒体<br><span style="font-weight:400;font-size:11px;">内容吸引人</span></div>
+      <span class="arrow">→</span>
+      <div class="node">C 求职服务<br><span style="font-weight:400;font-size:11px;">信任变现</span></div>
+      <span class="arrow">→</span>
+      <div class="node">D 数字模板<br><span style="font-weight:400;font-size:11px;">被动收入</span></div>
+      <span class="arrow">→</span>
+      <div class="node">B 数据分析<br><span style="font-weight:400;font-size:11px;">展示能力</span></div>
+    </div>
+    <div class="quote">
+      四个方向共用「计算机应届生 + 备考人」人设，互相导流：自媒体吸引关注 → 求职服务快速变现 → 模板被动收入 → 数据分析增加专业信任。一个人就是一家微型公司。
+    </div>
+  </div>
+
+  <!-- ========== 下一步 ========== -->
+  <h2>🚀 本周行动清单</h2>
+  <div class="card">
+    <div class="step"><div class="num">1</div><div><b>注册小红书/闲鱼账号</b>（已有就跳过），账号名选「脆脆鲸备考中」</div></div>
+    <div class="step"><div class="num">2</div><div><b>发第一篇笔记</b>（A 方向草稿已就绪，改改细节直接发）</div></div>
+    <div class="step"><div class="num">3</div><div><b>挂 C 方向求职服务</b>到闲鱼，写清价格和流程</div></div>
+    <div class="step"><div class="num">4</div><div><b>上架 D 方向备考周计划表</b>（9.9 元引流价）</div></div>
+    <div class="step"><div class="num">5</div><div><b>B 方向报告</b>作为个人作品，发到简历/公众号展示</div></div>
+  </div>
+
+  <div class="footer">
+    脆脆鲸 · 四方向创业启动手册 · 生成于 2026-09-03<br>
+    项目目录：startup-projects/
+  </div>
+</div>
+</body>
+</html>
